@@ -5,7 +5,7 @@ gh-repo: adam-bence-balogh/Java8
 gh-badge: [star, watch, fork, follow]
 tags: [java8]
 ---
-## Introduction
+
 Java 8 came with a lot of improvements compared to Java 7, and one of them is interface enhancement. This means that since Java 8 we can write methods in interfaces with concrete implementation. Interfaces are no longer only responsible for defining the contract, they became a bit more complex.  
 Before we dive into the details, let's talk about the reasons behind this enhancement. Imagine a situation where we have an interface with multiple implementations. Few months later we decide to add more methods into that, which results in putting new lines into the implementers as well, because they are forced to override the recently added abstract methods. It can be painful, but as long as you posses all of these classes you are fine. The unpleasant part comes when you may not have control over all of the implementations. You can imagine the anger of the developers when their classes starting to break one by one because you added a new abstract method into an interface.
 
