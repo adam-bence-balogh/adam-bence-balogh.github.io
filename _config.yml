@@ -18,7 +18,7 @@ navbar-links:
     - All Articles: "tags/"
     - Java 8: "tags/#java8"
 #    - Spring: "tags/#spring"	
-#    - Design Patterns: "tags/#designpatterns"
+    - Design Patterns: "tags/#designpatterns"
 #    - Testing: "tags/#test"
   About Me: "aboutme"
 
